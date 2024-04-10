@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(110, 25, 103);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+    background-color: rgb(142, 7, 162);
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.clock{
+    background-color: rgba(205, 1, 205, 0.662);
+    padding: 80px 100px 80px 100px;
+}
+
+h1 , h2{
+    font-size: 50px;
+}
